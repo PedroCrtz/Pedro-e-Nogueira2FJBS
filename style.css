@@ -1,6 +1,14 @@
 .paragrafo{
+    
+    
     color: blue;
     background-color: rgb(204, 170, 170);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
 }
 h2 {
     background-color: aquamarine;
@@ -8,5 +16,11 @@ h2 {
 
 .cabecalho {
     background-color: #424e61;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
+}.lista-cabecalho{
+
+    color: white;
 }
